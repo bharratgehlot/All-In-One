@@ -79,7 +79,7 @@ main {
 .semester-content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease;
+  transition: max-height 0.4s ease;
 }
 
 .semester.expanded .semester-content {
@@ -109,6 +109,43 @@ main {
   margin: 0 0 8px 0;
   font-size: 1rem;
   color: #111;
+}
+
+.subject-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 8px;
+}
+
+.subject-header:hover {
+  color: #16a34a;
+}
+
+.subject-toggle {
+  font-size: 0.9em;
+  font-weight: 700;
+  color: #16a34a;
+}
+
+.subject-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.subject-section {
+  margin: 12px 0;
+}
+
+.subject-section h4 {
+  margin: 0 0 8px 0;
+  font-size: 0.9rem;
+  color: #000000;
+  font-weight: 600;
 }
 
 .download-links {
