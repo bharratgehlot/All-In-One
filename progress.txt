@@ -2,3 +2,5 @@ DAY 1: Made Basic but functional App - 3 hours
 Day 2: 
 
 Milestones - Setup Custom Domain After 7 Days to total work.
+Number of Visters per day should shown on TOP.
+Number of Total vistors shown on top also.
