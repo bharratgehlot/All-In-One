@@ -1,379 +1,573 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Download Hub - easyfiles.icu</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document Download Hub - easyfiles.icu</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
+  <body>
+    <header>
+      <h1>📚 Document Download Hub</h1>
+      <p class="site-url">easyfiles.icu</p>
+    </header>
 
-<body>
-  <header>
-    <h1>📚 Document Download Hub</h1>
-    <p class="site-url">easyfiles.icu</p>
-  </header>
-
-  <main>
-    <section class="semester" id="semester-1">
-      <h2 class="semester-header" onclick="toggleSemester('semester-1')">Semester I <span class="toggle-icon">+</span>
-      </h2>
-      <div class="semester-content">
-        <!-- Add subjects here when available -->
-        <p class="empty-message">Nothing here yet</p>
-
-      </div>
-    </section>
-
-    <section class="semester" id="semester-2">
-      <h2 class="semester-header" onclick="toggleSemester('semester-2')">Semester II <span class="toggle-icon">+</span>
-      </h2>
-      <div class="semester-content">
-        <!-- Add subjects here when available -->
-        <p class="empty-message">Nothing here yet</p>
-
-      </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-    <section class="semester" id="semester-3">
-      <h2 class="semester-header" onclick="toggleSemester('semester-3')">Semester III <span class="toggle-icon">+</span>
-      </h2>
-      <div class="semester-content">
-
-
-
-
-
-
-
-        <div class="subject">
-
-          <h3 class="subject-header" onclick="toggleSubject('mst-est-papers')">MST & EST Papers <span
-              class="subject-toggle">+</span></h3>
-
-          <div class="subject-content" id="mst-est-papers">
-
-            <div class="subject-section">
-              <h4>Mid Semester Test Papers</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 3/MST & EST Papers/MST/Data Structure/data_structure_mst_one.jpeg" download>Data
-                    Structure</a></li>
-                <li><a href="docs/Sem 3/MST & EST Papers/MST/Discrete Mathematics/discrete_mathematics_mst_one.jpeg"
-                    download>Discrete Mathematics</a></li>
-              </ul>
-            </div>
-
-          </div>
-
-
+    <main>
+      <section class="semester" id="semester-1">
+        <h2 class="semester-header" onclick="toggleSemester('semester-1')">
+          Semester I <span class="toggle-icon">+</span>
+        </h2>
+        <div class="semester-content">
+          <!-- Add subjects here when available -->
+          <p class="empty-message">Nothing here yet</p>
         </div>
+      </section>
 
+      <section class="semester" id="semester-2">
+        <h2 class="semester-header" onclick="toggleSemester('semester-2')">
+          Semester II <span class="toggle-icon">+</span>
+        </h2>
+        <div class="semester-content">
+          <!-- Add subjects here when available -->
+          <p class="empty-message">Nothing here yet</p>
+        </div>
+      </section>
 
+      <section class="semester" id="semester-3">
+        <h2 class="semester-header" onclick="toggleSemester('semester-3')">
+          Semester III <span class="toggle-icon">+</span>
+        </h2>
+        <div class="semester-content">
+          <div class="subject">
+            <h3
+              class="subject-header"
+              onclick="toggleSubject('mst-est-papers')"
+            >
+              MST & EST Papers <span class="subject-toggle">+</span>
+            </h3>
 
-
-
-
-      </div>
-    </section>
-
-
-
-
-    <section class="semester" id="semester-4">
-      <h2 class="semester-header" onclick="toggleSemester('semester-4')">Semester IV <span class="toggle-icon">+</span>
-      </h2>
-      <div class="semester-content">
-
-
-
-        <!-- Add subjects here when available -->
-        <p class="empty-message">Nothing here yet</p>
-
-
-
-
-
-      </div>
-    </section>
-
-    <section class="semester" id="semester-5">
-      <h2 class="semester-header" onclick="toggleSemester('semester-5')">Semester V <span class="toggle-icon">+</span>
-      </h2>
-
-
-      <div class="semester-content">
-
-
-
-
-
-
-
-        <div class="subject">
-
-          <h3 class="subject-header" onclick="toggleSubject('cn-subject')">Computer Networks <span
-              class="subject-toggle">+</span></h3>
-
-          <div class="subject-content" id="cn-subject">
-
-            <div class="subject-section">
-              <h4>All In One</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/Computer Networks/All In One/Computer Networks (All In One).pdf"
-                    download>Computer Networks (All In One) (PDF)</a></li>
-                <li><a href="docs/Sem 5/Computer Networks/All In One/Computer Networks(AIO).docx" download>Computer
-                    Networks (All In One) (DOCX)</a></li>
-              </ul>
+            <div class="subject-content" id="mst-est-papers">
+              <div class="subject-section">
+                <h4>Mid Semester Test Papers</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 3/MST & EST Papers/MST/Data Structure/data_structure_mst_one.jpeg"
+                      download
+                      >Data Structure</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 3/MST & EST Papers/MST/Discrete Mathematics/discrete_mathematics_mst_one.jpeg"
+                      download
+                      >Discrete Mathematics</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
-
-
-            <div class="subject-section">
-              <h4>Assignments</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/Computer Networks/Assignments/Assignment 1.docx" download>Assignment 1</a></li>
-                <li><a href="docs/Sem 5/Computer Networks/Assignments/Assignment_2.docx" download>Assignment 2</a></li>
-                <li><a href="docs/Sem 5/Computer Networks/Assignments/Assignment_3.docx" download>Assignment 3</a></li>
-                <li style="color: grey;">Assignment 4 (Coming Soon)</li>
-                <li style="color: grey;">Assignment 5 (Coming Soon) </li>
-                <h4>Practical</h4>
-                <li><a href="docs/Sem 5/Computer Networks/Assignments/Assignment 1 PR.docx" download>Assignment 1
-                    (PR)</a></li>
-                <li><a href="docs/Sem 5/Computer Networks/Assignments/Assignment 2 PR.docx" download>Assignment 2
-                    (PR)</a></li>
-                <li style="color: grey;">Assignment 3 (PR) (Coming Soon)</li>
-                <li style="color: grey;">Assignment 4 (PR) (Coming Soon)</li>
-                <li style="color: grey;">Assignment 5 (PR) (Coming Soon)</li>
-              </ul>
-            </div>
-
-            <div class="subject-section">
-              <h4>Syllabus</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/Computer Networks/Syllabus/syllabus.docx" download>Syllabus</a></li>
-                <li><a href="docs/Sem 5/Computer Networks/Syllabus/Practical Syllabus.docx" download>Practical
-                    Syllabus</a></li>
-              </ul>
-            </div>
-
-
-
           </div>
         </div>
+      </section>
 
-
-        <div class="subject">
-          <h3 class="subject-header" onclick="toggleSubject('dwm-subject')">Data Warehousing and Mining (DWM) <span
-              class="subject-toggle">+</span></h3>
-          <div class="subject-content" id="dwm-subject">
-            <div class="subject-section">
-              <h4>All In One</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/Data Warehousing and Mining/All In One/DWM (All In One).pdf" download>DWM (All
-                    In One) (PDF)</a></li>
-                <li><a href="docs/Sem 5/Data Warehousing and Mining/All In One/DWM (All In One).docx" download>DWM (All
-                    In One) (DOCX)</a></li>
-              </ul>
-            </div>
-
-            <div class="subject-section">
-              <h4>Assignments</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/Data Warehousing and Mining/Assignments/Assignment_1.docx" download>Assignment
-                    1</a></li>
-                <li style="color: grey;">Assignment 2 (Coming Soon)</li>
-                <li style="color: grey;">Assignment 3 (Coming Soon)</li>
-                <li style="color: grey;">Assignment 4 (Coming Soon)</li>
-                <li style="color: grey;">Assignment 5 (Coming Soon) </li>
-
-              </ul>
-            </div>
-
-            <div class="subject-section">
-              <h4>Syllabus</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/Data Warehousing and Mining/Syllabus/syllabus.docx" download>Syllabus</a></li>
-              </ul>
-            </div>
-
-
-
-
-          </div>
+      <section class="semester" id="semester-4">
+        <h2 class="semester-header" onclick="toggleSemester('semester-4')">
+          Semester IV <span class="toggle-icon">+</span>
+        </h2>
+        <div class="semester-content">
+          <!-- Add subjects here when available -->
+          <p class="empty-message">Nothing here yet</p>
         </div>
+      </section>
 
-        <div class="subject">
-          <h3 class="subject-header" onclick="toggleSubject('dl-subject')">Deep Learning (Very Deep) <span
-              class="subject-toggle">+</span></h3>
-          <div class="subject-content" id="dl-subject">
-            <div class="subject-section">
-              <h4>All In One</h4>
-              <ul class="download-links">
-                <li><a href="" download>Deep Learning (All In One) (PDF)</a></li>
-                <li><a href="" download>Deep Learning (All In One) (DOCX)</a></li>
-              </ul>
+      <section class="semester" id="semester-5">
+        <h2 class="semester-header" onclick="toggleSemester('semester-5')">
+          Semester V <span class="toggle-icon">+</span>
+        </h2>
+
+        <div class="semester-content">
+          <div class="subject">
+            <h3 class="subject-header" onclick="toggleSubject('cn-subject')">
+              Computer Networks <span class="subject-toggle">+</span>
+            </h3>
+
+            <div class="subject-content" id="cn-subject">
+              <div class="subject-section">
+                <h4>All In One</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 5/Computer Networks/All In One/Computer Networks (All In One).pdf"
+                      download
+                      >Computer Networks (All In One) (PDF)</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Computer Networks/All In One/Computer Networks(AIO).docx"
+                      download
+                      >Computer Networks (All In One) (DOCX)</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Assignments</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 5/Computer Networks/Assignments/Assignment 1.docx"
+                      download
+                      >Assignment 1</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Computer Networks/Assignments/Assignment_2.docx"
+                      download
+                      >Assignment 2</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Computer Networks/Assignments/Assignment_3.docx"
+                      download
+                      >Assignment 3</a
+                    >
+                  </li>
+                  <li style="color: grey">Assignment 4 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 5 (Coming Soon)</li>
+                  <h4>Practical</h4>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Computer Networks/Assignments/Assignment 1 PR.docx"
+                      download
+                      >Assignment 1 (PR)</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Computer Networks/Assignments/Assignment 2 PR.docx"
+                      download
+                      >Assignment 2 (PR)</a
+                    >
+                  </li>
+                  <li style="color: grey">Assignment 3 (PR) (Coming Soon)</li>
+                  <li style="color: grey">Assignment 4 (PR) (Coming Soon)</li>
+                  <li style="color: grey">Assignment 5 (PR) (Coming Soon)</li>
+                </ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Syllabus</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 5/Computer Networks/Syllabus/syllabus.docx"
+                      download
+                      >Syllabus</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Computer Networks/Syllabus/Practical Syllabus.docx"
+                      download
+                      >Practical Syllabus</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
-
-            <div class="subject-section">
-              <h4>Assignments</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/Deep Learning/Assignments/Assignment_1.docx" download>Assignment 1</a></li>
-                <li><a href="docs/Sem 5/Deep Learning/Assignments/Assignment_2.docx" download>Assignment 2</a></li>
-                <li style="color: grey;">Assignment 3 (Coming Soon)</li>
-                <li style="color: grey;">Assignment 4 (Coming Soon)</li>
-                <li style="color: grey;">Assignment 5 (Coming Soon) </li>
-
-              </ul>
-            </div>
-
-            <div class="subject-section">
-              <h4>Syllabus</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/Deep Learning/Syllabus/syllabus.pdf" download>Syllabus</a></li>
-              </ul>
-            </div>
-
-
-
-
           </div>
-        </div>
 
-        <div class="subject">
-          <h3 class="subject-header" onclick="toggleSubject('linux-subject')">Linux Laboratory <span
-              class="subject-toggle">+</span></h3>
-          <div class="subject-content" id="linux-subject">
-            <div class="subject-section">
-              <h4>All In One</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/Linux Laboratory/All In One/LinuxLab (All In One).pdf" download>Linux Laboratory
-                    (All In One) (PDF)</a></li>
-                <li><a href="docs/Sem 5/Linux Laboratory/All In One/LinuxLab (AIO).docx" download>Linux Laboratory (All
-                    In One) (DOCX)</a></li>
-              </ul>
+          <div class="subject">
+            <h3 class="subject-header" onclick="toggleSubject('dwm-subject')">
+              Data Warehousing and Mining (DWM)
+              <span class="subject-toggle">+</span>
+            </h3>
+            <div class="subject-content" id="dwm-subject">
+              <div class="subject-section">
+                <h4>All In One</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 5/Data Warehousing and Mining/All In One/DWM (All In One).pdf"
+                      download
+                      >DWM (All In One) (PDF)</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Data Warehousing and Mining/All In One/DWM (All In One).docx"
+                      download
+                      >DWM (All In One) (DOCX)</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Assignments</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 5/Data Warehousing and Mining/Assignments/Assignment_1.docx"
+                      download
+                      >Assignment 1</a
+                    >
+                  </li>
+                  <li style="color: grey">Assignment 2 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 3 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 4 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 5 (Coming Soon)</li>
+                </ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Syllabus</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 5/Data Warehousing and Mining/Syllabus/syllabus.docx"
+                      download
+                      >Syllabus</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
-
-            <div class="subject-section">
-              <h4>Assignments</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/Linux Laboratory/Assignments/Assignment_1.docx" download>Assignment 1</a></li>
-                <li><a href="docs/Sem 5/Linux Laboratory/Assignments/Assignment_2.docx" download>Assignment 2</a></li>
-                <li><a href="docs/Sem 5/Linux Laboratory/Assignments/Assignment_3.docx" download>Assignment 3</a></li>
-                <li><a href="docs/Sem 5/Linux Laboratory/Assignments/Assignment_4.docx" download>Assignment 4</a></li>
-                <li><a href="docs/Sem 5/Linux Laboratory/Assignments/Assignment_5.docx" download>Assignment 5</a></li>
-              </ul>
-            </div>
-
-
-            <div class="subject-section">
-              <h4>Syllabus</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/Linux Laboratory/Syllabus/syllabus.docx" download>Syllabus</a></li>
-              </ul>
-            </div>
-
-
-
-
           </div>
-        </div>
+
+          <div class="subject">
+            <h3 class="subject-header" onclick="toggleSubject('dl-subject')">
+              Deep Learning (Very Deep) <span class="subject-toggle">+</span>
+            </h3>
+            <div class="subject-content" id="dl-subject">
+              <div class="subject-section">
+                <h4>All In One</h4>
+                <ul class="download-links">
+                  <li>
+                    <a href="" download>Deep Learning (All In One) (PDF)</a>
+                  </li>
+                  <li>
+                    <a href="" download>Deep Learning (All In One) (DOCX)</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Assignments</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 5/Deep Learning/Assignments/Assignment_1.docx"
+                      download
+                      >Assignment 1</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Deep Learning/Assignments/Assignment_2.docx"
+                      download
+                      >Assignment 2</a
+                    >
+                  </li>
+                  <li style="color: grey">Assignment 3 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 4 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 5 (Coming Soon)</li>
+                </ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Syllabus</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 5/Deep Learning/Syllabus/syllabus.pdf"
+                      download
+                      >Syllabus</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="subject">
+            <h3 class="subject-header" onclick="toggleSubject('linux-subject')">
+              Linux Laboratory <span class="subject-toggle">+</span>
+            </h3>
+            <div class="subject-content" id="linux-subject">
+              <div class="subject-section">
+                <h4>All In One</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 5/Linux Laboratory/All In One/LinuxLab (All In One).pdf"
+                      download
+                      >Linux Laboratory (All In One) (PDF)</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Linux Laboratory/All In One/LinuxLab (AIO).docx"
+                      download
+                      >Linux Laboratory (All In One) (DOCX)</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Assignments</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 5/Linux Laboratory/Assignments/Assignment_1.docx"
+                      download
+                      >Assignment 1</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Linux Laboratory/Assignments/Assignment_2.docx"
+                      download
+                      >Assignment 2</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Linux Laboratory/Assignments/Assignment_3.docx"
+                      download
+                      >Assignment 3</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Linux Laboratory/Assignments/Assignment_4.docx"
+                      download
+                      >Assignment 4</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Linux Laboratory/Assignments/Assignment_5.docx"
+                      download
+                      >Assignment 5</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Syllabus</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 5/Linux Laboratory/Syllabus/syllabus.docx"
+                      download
+                      >Syllabus</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="subject">
+            <h3 class="subject-header" onclick="toggleSubject('coa-subject')">
+              COA <span class="subject-toggle">+</span>
+            </h3>
+            <div class="subject-content" id="coa-subject">
+              <div class="subject-section">
+                <h4>All In One</h4>
+                <ul class="download-links">
+                  <li><a href=" " download>COA (All In One) (PDF)</a></li>
+                  <li><a href=" " download>COA (All In One) (DOCX)</a></li>
+                </ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Assignments</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 5/COA/Assignments/Assignment_1.docx"
+                      download
+                      >Assignment 1</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/COA/Assignments/Assignment_2.docx"
+                      download
+                      >Assignment 2</a
+                    >
+                  </li>
+                  <li style="color: grey">Assignment 3 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 4 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 5 (Coming Soon)</li>
+                </ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Syllabus</h4>
+                <ul class="download-links">
+                  <li>
+                    <a href="docs/Sem 5/COA/Syllabus/syllabus.pdf" download
+                      >Syllabus</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="subject">
+            <h3 class="subject-header" onclick="toggleSubject('cd-subject')">
+              Compiler Design <span class="subject-toggle">+</span>
+            </h3>
+            <div class="subject-content" id="cd-subject">
+              <div class="subject-section">
+                <h4>All In One</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 5/Compiler Design/All In One/Compiler Design (All In One).pdf"
+                      download
+                      >Compiler Design (All In One) (PDF)</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Compiler Design/All In One/Compiler Design (All In One).docx"
+                      download
+                      >Compiler Design (All In One) (DOCX)</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Assignments</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 5/Compiler Design/Assignments/Assignment_1.docx"
+                      download
+                      >Assignment 1</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Compiler Design/Assignments/Assignment_2.docx"
+                      download
+                      >Assignment 2</a
+                    >
+                  </li>
+                  <li style="color: grey">Assignment 3 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 4 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 5 (Coming Soon)</li>
+                </ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Syllabus</h4>
+                <ul class="download-links">
+                  <li>
+                    <a
+                      href="docs/Sem 5/Compiler Design/Syllabus/syllabus.docx"
+                      download
+                      >Syllabus (docx)</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="docs/Sem 5/Compiler Design/Syllabus/syllabus.pdf"
+                      download
+                      >Syllabus (pdf)</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="subject">
+            <h3 class="subject-header" onclick="toggleSubject('mlt-subject')">
+               <span>Machine Learning Algorithm and Techniques<span style="color: crimson; font-size: smaller;"  > (AI Only)</span></span>
+              <span class="subject-toggle">+</span>
+            </h3>
+            <div class="subject-content" id="mlt-subject">
+              <div class="subject-section">
+                <h4>All In One</h4>
+                <ul class="download-links"></ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Assignments</h4>
+                <ul class="download-links">
+                  <li style="color: grey">Assignment 1 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 2 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 3 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 4 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 5 (Coming Soon)</li>
+                </ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Syllabus</h4>
+                <ul class="download-links">
+                  <li style="color: grey">Syllabus (Coming Soon)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="subject">
+            <h3 class="subject-header" onclick="toggleSubject('ddba-subject')">
+              <span>Desgin and Development of Blockchain Applications<span style="color: crimson; font-size: smaller; "> (BCT Only)</span></span>
+              <span class="subject-toggle">+</span>
+            </h3>
+            <div class="subject-content" id="ddba-subject">
+              <div class="subject-section">
+                <h4>All In One</h4>
+                <ul class="download-links"></ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Assignments</h4>
+                <ul class="download-links">
+                  <li style="color: grey">Assignment 1 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 2 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 3 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 4 (Coming Soon)</li>
+                  <li style="color: grey">Assignment 5 (Coming Soon)</li>
+                </ul>
+              </div>
+
+              <div class="subject-section">
+                <h4>Syllabus</h4>
+                <ul class="download-links">
+                  <li style="color: grey">Syllabus (Coming Soon)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
         <div class="subject">
-          <h3 class="subject-header" onclick="toggleSubject('coa-subject')">COA <span class="subject-toggle">+</span>
+          <h3 class="subject-header" onclick="toggleSubject('bauc-subject')">
+             <span>Blockchain Architecture and Use Cases<span style="color: crimson; font-size: smaller;"> (BCT Only)</span></span>
+            <span class="subject-toggle">+</span>
           </h3>
-          <div class="subject-content" id="coa-subject">
-            <div class="subject-section">
-              <h4>All In One</h4>
-              <ul class="download-links">
-                <li><a href=" " download>COA (All In One) (PDF)</a></li>
-                <li><a href=" " download>COA (All In One) (DOCX)</a></li>
-              </ul>
-            </div>
-
-            <div class="subject-section">
-              <h4>Assignments</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/COA/Assignments/Assignment_1.docx" download>Assignment 1</a></li>
-                <li><a href="docs/Sem 5/COA/Assignments/Assignment_2.docx" download>Assignment 2</a></li>
-                <li style="color: grey;">Assignment 3 (Coming Soon)</li>
-                <li style="color: grey;">Assignment 4 (Coming Soon)</li>
-                <li style="color: grey;">Assignment 5 (Coming Soon) </li>
-
-              </ul>
-            </div>
-
-            <div class="subject-section">
-              <h4>Syllabus</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/COA/Syllabus/syllabus.pdf" download>Syllabus</a></li>
-              </ul>
-            </div>
-
-
-
-          </div>
-        </div>
-
-
-
-        <div class="subject">
-          <h3 class="subject-header" onclick="toggleSubject('cd-subject')">Compiler Design <span
-              class="subject-toggle">+</span></h3>
-          <div class="subject-content" id="cd-subject">
-
-            <div class="subject-section">
-              <h4>All In One</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/Compiler Design/All In One/Compiler Design (All In One).pdf" download>Compiler
-                    Design (All In One) (PDF)</a></li>
-                <li><a href="docs/Sem 5/Compiler Design/All In One/Compiler Design (All In One).docx" download>Compiler
-                    Design (All In One) (DOCX)</a></li>
-              </ul>
-            </div>
-
-            <div class="subject-section">
-              <h4>Assignments</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/Compiler Design/Assignments/Assignment_1.docx" download>Assignment 1</a></li>
-                <li><a href="docs/Sem 5/Compiler Design/Assignments/Assignment_2.docx" download>Assignment 2</a></li>
-                <li style="color: grey;">Assignment 3 (Coming Soon)</li>
-                <li style="color: grey;">Assignment 4 (Coming Soon)</li>
-                <li style="color: grey;">Assignment 5 (Coming Soon) </li>
-
-              </ul>
-            </div>
-
-
-            <div class="subject-section">
-              <h4>Syllabus</h4>
-              <ul class="download-links">
-                <li><a href="docs/Sem 5/Compiler Design/Syllabus/syllabus.docx" download>Syllabus (docx)</a></li>
-                <li><a href="docs/Sem 5/Compiler Design/Syllabus/syllabus.pdf" download>Syllabus (pdf)</a></li>
-              </ul>
-            </div>
-
-
-
-
-          </div>
-        </div>
-
-
-
-        <div class="subject">
-          <h3 class="subject-header" onclick="toggleSubject('mlt-subject')">Machine Learning Algorithm and Techniques <span class="subject-toggle">+</span>
-          </h3>
-          <div class="subject-content" id="mlt-subject">
+          <div class="subject-content" id="bauc-subject">
             <div class="subject-section">
               <h4>All In One</h4>
               <ul class="download-links">
@@ -405,49 +599,44 @@
           </div>
         </div>
 
+        </div>
+      </section>
 
+      <section class="semester" id="semester-6">
+        <h2 class="semester-header" onclick="toggleSemester('semester-6')">
+          Semester VI <span class="toggle-icon">+</span>
+        </h2>
+        <div class="semester-content">
+          <!-- Add subjects here when available -->
+          <p class="empty-message">Nothing here yet</p>
+        </div>
+      </section>
 
-      </div>
-    </section>
+      <section class="semester" id="semester-7">
+        <h2 class="semester-header" onclick="toggleSemester('semester-7')">
+          Semester VII <span class="toggle-icon">+</span>
+        </h2>
+        <div class="semester-content">
+          <!-- Add subjects here when available -->
+          <p class="empty-message">Nothing here yet</p>
+        </div>
+      </section>
 
-    <section class="semester" id="semester-6">
-      <h2 class="semester-header" onclick="toggleSemester('semester-6')">Semester VI <span class="toggle-icon">+</span>
-      </h2>
-      <div class="semester-content">
-        <!-- Add subjects here when available -->
-        <p class="empty-message">Nothing here yet</p>
+      <section class="semester" id="semester-8">
+        <h2 class="semester-header" onclick="toggleSemester('semester-8')">
+          Semester VIII <span class="toggle-icon">+</span>
+        </h2>
+        <div class="semester-content">
+          <!-- Add subjects here when available -->
+          <p class="empty-message">Nothing here yet</p>
+        </div>
+      </section>
+    </main>
 
-      </div>
-    </section>
+    <footer>
+      <p>&copy; 2024 easyfiles.icu - Document Download Hub</p>
+    </footer>
 
-    <section class="semester" id="semester-7">
-      <h2 class="semester-header" onclick="toggleSemester('semester-7')">Semester VII <span class="toggle-icon">+</span>
-      </h2>
-      <div class="semester-content">
-        <!-- Add subjects here when available -->
-        <p class="empty-message">Nothing here yet</p>
-
-      </div>
-    </section>
-
-    <section class="semester" id="semester-8">
-      <h2 class="semester-header" onclick="toggleSemester('semester-8')">Semester VIII <span
-          class="toggle-icon">+</span></h2>
-      <div class="semester-content">
-        <!-- Add subjects here when available -->
-        <p class="empty-message">Nothing here yet</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2024 easyfiles.icu - Document Download Hub</p>
-  </footer>
-
-
-  <script src="script.js"></script>
-
-
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
